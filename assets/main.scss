@@ -67,7 +67,7 @@ since it must be aligned with the content */
 	border-radius: 0;
 	-moz-border-radius: 0;
 	border: none;
-	box-shadow: 0 0 0 3px $text-color;
+	box-shadow: none;
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 }
@@ -134,7 +134,7 @@ footer {
 	aligned right */
 	header {
 		float: left;
-		width: 33%;
+		width: 35%;
 		text-align: right;
 	}
 
@@ -145,8 +145,8 @@ footer {
 	}
 
 	main {
-		width: 59%;
-		margin-left: 41%;
+		width: 57%;
+		margin-left: 39%;
 		padding: 0;
 	}
 }
