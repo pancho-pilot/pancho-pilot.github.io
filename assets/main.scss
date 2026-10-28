@@ -60,14 +60,16 @@ since it must be aligned with the content */
 }
 
 .logo {
-	width: 96px;
-	height: 96px;
+	// width: 96px;
+	// height: 96px;
 	display: inline-block;
 	background-size: cover;
 	border-radius: 0;
 	-moz-border-radius: 0;
 	border: none;
 	box-shadow: 0 0 0 3px $text-color;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
 }
 
 /*** author ***/
