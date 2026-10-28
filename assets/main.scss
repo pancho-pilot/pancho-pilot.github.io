@@ -133,7 +133,8 @@ footer {
 	/* the header column stays left and has a dynamic width with all contents
 	aligned right */
 	header {
-		padding-top: 100px;
+		// padding-top: 100px; //looks good, but will be better when there's more content
+		padding-top: 75px;
 		float: left;
 		width: 35%;
 		text-align: right;
